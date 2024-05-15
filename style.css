@@ -160,7 +160,7 @@ input[type=text], input[type=tel], input[type=email]{
     color: cornsilk;
     padding: 1.7em 1em;
 
-    justify-content:stretch;
+    justify-content:space-evenly;
 }
 
 /* Media query for tablets */
@@ -257,12 +257,21 @@ input[type=text], input[type=tel], input[type=email]{
     }
     .name{
     font-size: 2.2em;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .box4 {
+        margin-left:  2em;
+        margin-top: 1em;
+        width: 60%;
+        padding: 1.7em 1em;
 
     }
     .box2 {
         margin: 3em 2em;
         margin-top: 1em;
-        border-radius: 1cm;
+        border-radius: 0.5cm;
         padding: 1.7em 2em;
 
     }
