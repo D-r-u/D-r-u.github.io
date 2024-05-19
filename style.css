@@ -148,8 +148,8 @@ input[type=text], input[type=tel], input[type=email]{
 }
 
 .pic img {
-    height: 16em;
-    width: 16em;
+    height: 15em;
+    width: 15em;
     align-content: center;
 }
 
