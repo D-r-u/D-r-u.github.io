@@ -25,7 +25,7 @@ a{
 
 .sidebar {
     position: fixed;
-    background-color: #c5c5c5;
+    background-color: #313131;
     width: 4.1em;
     height: 100%;
     padding: 0em 1.8em;
@@ -69,7 +69,7 @@ a{
 .box1 {
     margin: 3em 2em;
     margin-top: 1em;
-    background-color: #4f4f4f;
+    background-color: #131313;
     border-radius: 1.4cm;
     color: cornsilk;
     padding: 1.7em 0.6em;
@@ -128,7 +128,7 @@ input[type=text], input[type=tel], input[type=email]{
     font-weight: 400;
     font-style: normal;
     font-size: 3em;
-    color: rgba(250, 250, 250, 0.508);
+    color: rgba(250, 250, 250, 0.667);
     
     margin: .5em 1em;
 }
@@ -156,7 +156,7 @@ input[type=text], input[type=tel], input[type=email]{
 .box2 {
     margin: 3em 2em;
     margin-top: 1em;
-    background-color: #4f4f4fbf;
+    background-color: #131313bf;
     border-radius: 1.4cm;
     color: cornsilk;
     padding: 1.7em 3em;
@@ -170,10 +170,10 @@ input[type=text], input[type=tel], input[type=email]{
     margin: 1em 2em;
     margin-top: 1em;
     width: 45%;
-    background-color: #4f4f4fbf;
+    background-color: #131313bf;
     border-radius: 1cm;
     color: cornsilk;
-    padding: 1.7em 1em;
+    padding: 1.7em 2em;
 
     justify-content:space-evenly;
 }
@@ -182,7 +182,6 @@ input[type=text], input[type=tel], input[type=email]{
 @media (max-width: 965px) {
     .sidebar {
         position: fixed;
-        background-color: #c5c5c5;
         width: 2em;
         height: 100%;
         padding: 0em 1.8em;
@@ -190,8 +189,12 @@ input[type=text], input[type=tel], input[type=email]{
         justify-content: center;
     }
     .sidebar li {
-        padding: 1.7em .5em;
+        padding: 2em .5em;
         list-style: none;
+    }
+    .sidebar li:hover {
+        padding: 2em 1em;
+        box-shadow: 0px 0px 0 #777;
     }
     .main {
         background-color: #000000;
@@ -219,7 +222,6 @@ input[type=text], input[type=tel], input[type=email]{
   @media (max-width: 480px) {
     .sidebar {
         position: fixed;
-        background-color: #c5c5c5;
         width: 2.5em;
         height: 100%;
         padding: 0em 0.5em;
@@ -231,11 +233,11 @@ input[type=text], input[type=tel], input[type=email]{
         height: 1.8em;
     }
     .sidebar li {
-        padding: 1.7em .3em;
+        padding: 3em .3em;
         list-style: none;
     }
     .sidebar li:hover {
-        padding: 1.7em .5em;
+        padding: 3em .5em;
         box-shadow: 1px 0px 0px #777;
     }
     .main {
@@ -254,7 +256,7 @@ input[type=text], input[type=tel], input[type=email]{
     .box1 {
         margin: 3em 2em;
         margin-top: 1em;
-        background-color: #4f4f4f;
+        background-color: #131313;
         border-radius: 1cm;
         color: cornsilk;
         padding: 1.7em 2em;
@@ -280,7 +282,7 @@ input[type=text], input[type=tel], input[type=email]{
         margin-left:  2em;
         margin-top: 1em;
         width: 60%;
-        padding: 1.7em 1em;
+        padding: 1.7em 1.5em;
         border-radius: 0.5cm;
 
     }
