@@ -229,8 +229,8 @@ input[type=text], input[type=tel], input[type=email]{
         align-content: center;
     }
     .sidebar img {
-        width: 2em;
-        height: 2em;
+        width: 1.7em;
+        height: 1.7em;
     }
     .sidebar li {
         padding: 3em .3em;
