@@ -5,3 +5,7 @@ This is a very simple portfolio website built solely on HTML and CSS used to giv
 The website portrays a very simple design and is hosted using GitHub Pages.
 Showcases all the achievements and other works that I have embarked on.
 Showcases my CV, Projects and blogs
+
+## Languages Used
+1. HTML
+2. CSS
