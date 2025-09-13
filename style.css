@@ -96,10 +96,10 @@ input[type=text], input[type=tel], input[type=email]{
     background-color: #565656; 
     color: #ffe1e1;
 } 
-input.message{
+textarea{
     border: none;
     width: 32em;
-    height: 5em;
+    height: 6em;
     margin: 1em 2em;
     padding: 0em 1em;
     border-radius: 0.5em;
@@ -107,8 +107,6 @@ input.message{
     background-color: #565656; 
     color: #ffe1e1;
     justify-content: start;
-    rows: 4;
-
 }
 .btn {
     background-color: #c5c5c5 ;
@@ -135,7 +133,7 @@ input.message{
     background-color: #fff3e5c8;
     color: #000000;
     border-radius: 0.3cm;
-    font-size: 0.7em;
+    font-size: 0.8em;
     justify-content: center;
 }
 .btn2:hover{
@@ -241,6 +239,9 @@ input.message{
     input[type=text], input[type=tel], input[type=email]{
         width:24em;
     }
+    textarea{
+        width:24em;
+    }
 
   }
   
@@ -322,6 +323,15 @@ input.message{
     input[type=text], input[type=tel], input[type=email]{
         width: 17em;
         margin: 0em;
+        margin-bottom: 5em;
+        margin-top: 1em;
+        padding: 0em 1em;
+    }
+    textarea{
+        width: 17em;
+        margin: 0em;
+        margin-bottom: 5em;
+        margin-top: 1em;
         padding: 0em 1em;
     }
     .btn {
