@@ -125,16 +125,18 @@ input[type=text], input[type=tel], input[type=email]{
     color:  #ffe1e1;
 }
 .btn2{
-    height: 5em;
-    width: 10em;
+    height: 3em;
+    width: 7em;
     justify-self: center;
     margin-left:2em;
-    padding: 0em 1em;
+    padding: 0em .5em;
     background-color: #fff3e5c8;
-    color: #000000;
+    color: rgb(3, 46, 48);
     border-radius: 0.3cm;
-    font-size: 0.8em;
+    font-size: 0.7em;
     justify-content: center;
+    font-family: sans-serif;
+    font-weight: 900;
 }
 .btn2:hover{
     background-color: cadetblue;
