@@ -96,7 +96,7 @@ input[type=text], input[type=tel], input[type=email]{
     background-color: #565656; 
     color: #ffe1e1;
 } 
-textarea{
+.tarea{
     border: none;
     width: 32em;
     height: 6em;
